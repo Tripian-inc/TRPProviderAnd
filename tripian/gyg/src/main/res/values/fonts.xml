@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Display -->
+
+    <style name="TextDisplay">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/head</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <!-- Header -->
+
+    <style name="TextHeader1">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_header_1</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <style name="TextHeader2">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_header_2</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <!-- Body -->
+
+    <style name="TextBody1">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_body_1</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <style name="TextBody2">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_body_2</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <style name="TextBody3">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_body_3</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <!-- Button -->
+
+    <style name="TextButton">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:textColor">@color/head</item>
+        <item name="android:textColorHint">@color/head</item>
+    </style>
+
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    <!-- *********************************************************** -->
+    
+    
+    <style name="TextDisplay2">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_size_display_2</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextDisplay1">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_size_display_1</item>
+        <item name="android:textColor">@color/black_soft</item>
+        <item name="android:textColorHint">@color/black56</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextHeadline">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextTitle2">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_size_title_2</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextTitle1">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_size_title_1</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextSubhead2">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextSubhead1">
+        <item name="android:fontFamily">@font/semibold</item>
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextFormField">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_form_field</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextCaption2">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_size_caption_2</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+    <style name="TextCaption1">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/black_soft</item>
+    </style>
+
+    <!-- *********************************************************** -->
+
+
+</resources>

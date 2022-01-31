@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_8sdp"
+    android:paddingStart="@dimen/_16sdp"
+    android:paddingEnd="@dimen/_16sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_16sdp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rounded_top_white">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            style="@style/TextTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2 - Day Istanbul" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/TextTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/duration" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDay"
+            style="@style/TextBody2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/head"
+            tools:text="2 day" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/TextTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/starting_times" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTime"
+            style="@style/TextBody2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/head"
+            tools:text="09:00" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:background="@drawable/bg_rounded_bottom_gray">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPrice"
+            style="@style/TextTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnSelect"
+            tools:text="100" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPriceDescription"
+            style="@style/TextBody2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPrice"
+            android:textColor="@color/head"
+            tools:text="For 1 person" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSelect"
+            style="@style/TextButton"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_button_red"
+            android:text="@string/select"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

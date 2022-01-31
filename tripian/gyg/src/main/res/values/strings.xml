@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alphanumeric_characters" translatable="false">abcçdefgğhıijklmnoöpqrsştuüvwxyz ABCÇDEFGĞHIİJKLMNOÖPQRSŞTUÜVWXYZ</string>
+
+    <string-array name="month_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="error_title">Warning</string>
+    <string name="connect_error_description">CONNECTION PROBLEM</string>
+    <string name="generic_error_description">GENERIC PROBLEM</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+
+    <string name="page_title_guide">Experiences</string>
+    <string name="page_title_date">Tour Date</string>
+    <string name="page_title_billing">Billing</string>
+    <string name="page_title_payment">Payment</string>
+
+    <string name="best_seller">Best Seller</string>
+    <string name="tour_about_activity">About this activity</string>
+    <string name="tour_duration">Duration:</string>
+    <string name="tour_live_guide">Live tour guide:</string>
+    <string name="tour_cancellation">Cancellation:</string>
+    <string name="tour_detail_highlights"><![CDATA[Detail & highlights]]></string>
+    <string name="tour_read_more_info">Read More Info</string>
+    <string name="tour_detail_include">What\'s included</string>
+    <string name="tour_detail_exclude">What\'s not included</string>
+    <string name="tour_detail_reviews">Reviews</string>
+    <string name="book_now">Book now</string>
+    <string name="per_person">Per person</string>
+    <string name="tour_read_all_review">Read All Reviews</string>
+    <string name="page_title_more_info">More Info</string>
+    <string name="full_description">Full description</string>
+    <string name="page_title_reviews">Reviews</string>
+    <string name="tour_review_sort_by">Sort by</string>
+    <string name="tour_review_newest">Newest First</string>
+    <string name="tour_review_high_rated">Highest Rated</string>
+    <string name="tour_review_low_rated">Lowest Rated</string>
+    <string name="favorite_not_found">No favorites yet.</string>
+    <string name="select">Select</string>
+    <string name="duration">Duration</string>
+    <string name="starting_times">Starting Times</string>
+    <string name="check_availability">Check Availability</string>
+    <string name="personal_info">Billing Details</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">E-mail</string>
+    <string name="mobile_number">Phone</string>
+    <string name="next">Next</string>
+    <string name="country">Country</string>
+    <string name="travel_details">Travel Details</string>
+    <string name="travel_details_same">Same as billing details</string>
+    <string name="travel_first_name">Travel First Name</string>
+    <string name="travel_last_name">Travel Last Name</string>
+    <string name="travel_email_address">Travel E-mail</string>
+    <string name="travel_mobile_number">Travel Phone</string>
+    <string name="error_wrong_first_name">Please check billing First Name.</string>
+    <string name="error_wrong_last_name">Please check billing Last Name.</string>
+    <string name="error_wrong_phone">Please check billing phone number.</string>
+    <string name="error_wrong_country">Please check billing country.</string>
+    <string name="error_wrong_mail">Please check billing e-mail address.</string>
+    <string name="error_wrong_travel_first_name">Please check travel First Name.</string>
+    <string name="error_wrong_travel_last_name">Please check travel Last Name.</string>
+    <string name="error_wrong_travel_phone">Please check travel mobile phone number.</string>
+    <string name="error_wrong_travel_mail">Please check travel e-mail address.</string>
+    <string name="payment_info">Payment Info</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="card_number">Credit card number</string>
+    <string name="review_your_order">Review your order</string>
+    <string name="pay_now">Pay now</string>
+    <string name="error_wrong_card_on_name">Please check card on name field.</string>
+    <string name="error_wrong_card_number">Please check card number field.</string>
+    <string name="error_wrong_card_month">Please check card month field.</string>
+    <string name="error_wrong_card_year">Please check card year field.</string>
+    <string name="error_wrong_card_cvc">Please check card cvc field.</string>
+</resources>

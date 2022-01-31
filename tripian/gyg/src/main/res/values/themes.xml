@@ -1,0 +1,95 @@
+<resources>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/purple</item>
+        <item name="colorAccent">@color/purple</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+
+        <item name="windowBackground">@color/white</item>
+        <item name="toolbarColor">@color/white</item>
+        <item name="viewBackground">@color/white</item>
+
+        <item name="textInputStyle">@style/CustomFontTextInputLayout</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseAppTheme" />
+
+    <style name="AppTheme.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.BottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="AppThemeYellow" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="NumberPickerStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/black87</item>
+        <item name="android:colorControlNormal">@color/purple</item>
+
+        <item name="buttonBarButtonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="CustomFontTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="hintTextAppearance">@style/TextFloatLabelAppearance</item>
+        <item name="helperTextTextAppearance">@style/TextHelperText</item>
+        <item name="errorTextAppearance">@style/TextErrorAppearance</item>
+    </style>
+
+    <style name="TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="TextHelperText" parent="TextAppearance.Design.HelperText">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/black87</item>
+    </style>
+
+    <style name="TextErrorAppearance" parent="TextAppearance.Design.Error">
+        <item name="fontFamily">@font/regular</item>
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/red_A200</item>
+    </style>
+</resources>
