@@ -31,7 +31,8 @@ class ExperienceNetwork {
         okHttpClient: OkHttpClient
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://api.getyourguide.com/1/")
+//            .baseUrl("https://api.getyourguide.com/1/")
+            .baseUrl("https://api.testing1.gygtest.com/1/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .client(okHttpClient)
             .build()
