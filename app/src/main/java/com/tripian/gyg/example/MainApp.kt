@@ -11,6 +11,6 @@ class MainApp : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        Tripian.init(this, "Yb8XauGtHKbBUEj4PGWRfrvzvmwKijdghHwWkjBVYTKmTFeR")
+        Tripian.init(this, "xxxxxxxxxxxxxxxxxxxx")
     }
 }
